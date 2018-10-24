@@ -245,6 +245,13 @@ input[type=submit]:hover {
   padding: 0;
 }
 
+.contact-us{
+  display: flex;
+  padding-left: 50px;
+  text-align: left;
+}
+
+
 
 
 
@@ -255,5 +262,7 @@ footer{
   margin-top: 20px;
   color: #ffffff;
   background-color: #68a4c4;
-  text-align: center;
+  text-align: left;
+
+
 }
