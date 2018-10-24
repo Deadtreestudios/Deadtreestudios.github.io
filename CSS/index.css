@@ -247,7 +247,9 @@ input[type=submit]:hover {
 
 
 
-
+.contact-us h2{
+  float: left;
+}
 
 
 footer{
