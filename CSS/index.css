@@ -268,9 +268,10 @@ footer{
   padding-bottom: 0;
 }
 
-@media(max-width:768px)  {
+@media(max-width:786px)  {
   header #num,
-  header h1{
+  header h1,
+  {
     float: none;
     text-align: center;
     width: 100%;
