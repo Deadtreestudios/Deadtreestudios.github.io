@@ -245,13 +245,21 @@ input[type=submit]:hover {
   padding: 0;
 }
 
-.contact-us{
+#contact-us{
   display: flex;
   padding-left: 50px;
   text-align: left;
 }
 
+#footer{
+  padding: 0;
+  padding-top: 20px;
+  margin-top: 15px;
+  padding-left: 40px;
+  font-size: 12px;
+  
 
+}
 
 
 
@@ -263,6 +271,7 @@ footer{
   color: #ffffff;
   background-color: #68a4c4;
   text-align: left;
+  padding-bottom: 0;
 
 
 }
