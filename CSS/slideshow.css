@@ -46,6 +46,11 @@ img {vertical-align: middle;}
   background-color: #717171;
 }
 
+.active, .dot:hover {
+  background-color: #red;
+}
+
+
 /* Fading animation */
 .fade {
   -webkit-animation-name: fade;
