@@ -3,5 +3,6 @@ $('.slideshow-container').slick({
   infinite: true,
   autoplay: true,
   autoplaySpeed: 3000,
-  arrows:true
+  arrows:true,
+  dots: true
 });
