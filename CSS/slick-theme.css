@@ -39,16 +39,16 @@
     color: #000000;
     border: none;
     outline: none;
-    background: #68a4c4;
+    background: #5f5f5f;
 }
 .slick-prev:hover,
 .slick-prev:focus,
 .slick-next:hover,
 .slick-next:focus
 {
-    color: transparent;
+    color: #000000;
     outline: none;
-    background: transparent;
+    background: #68a4c4;
 }
 .slick-prev:hover:before,
 .slick-prev:focus:before,
@@ -163,11 +163,12 @@
     color: transparent;
     border: 0;
     outline: none;
-    background: #68a4c4;
+    background: #5f5f5f;
 }
 .slick-dots li button:hover,
 .slick-dots li button:focus
 {
+  background: #68a4c4;
     outline: none;
 }
 .slick-dots li button:hover:before,
