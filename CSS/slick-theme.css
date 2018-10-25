@@ -15,7 +15,7 @@
     src: url('./fonts/slick.eot');
     src: url('./fonts/slick.eot?#iefix') format('embedded-opentype'), url('./fonts/slick.woff') format('woff'), url('./fonts/slick.ttf') format('truetype'), url('./fonts/slick.svg#slick') format('svg');
 }
-/* Arrows
+/* Arrows */
 .slick-prev,
 .slick-next
 {
@@ -112,8 +112,8 @@
 {
     content: '←';
 }
-*/
-/* Dots
+
+/* Dots */
 .slick-dotted.slick-slider
 {
     margin-bottom: 30px;
@@ -203,4 +203,3 @@
     opacity: .75;
     color: black;
 }
-*/
