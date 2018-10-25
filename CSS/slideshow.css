@@ -31,7 +31,7 @@ img {vertical-align: middle;}
   top: 0;
 }
 
-/* The dots/bullets/indicators */
+/* The dots/bullets/indicators
 .dot {
   height: 15px;
   width: 15px;
@@ -49,7 +49,7 @@ img {vertical-align: middle;}
 .active, .dot:hover {
   background-color: #red;
 }
-
+*/
 
 /* Fading animation */
 .fade {
