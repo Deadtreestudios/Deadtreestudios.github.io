@@ -311,10 +311,9 @@ footer{
     margin-bottom: 5px;
   }
 
-  form{
+  nav{
     max-width: 100%;
-    padding: 0;
-    margin: 0;
+    text-align: center;
 
   }
 
