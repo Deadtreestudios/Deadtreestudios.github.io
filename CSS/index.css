@@ -15,6 +15,31 @@ img {vertical-align: middle;}
   overflow: hidden;
 }
 
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+
+header a:hover{
+  color: #68a4c4;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+header a{
+  color: #000000;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
 .button_1{
   height: 30px;
   background: #68a4c4;
@@ -98,7 +123,7 @@ padding: 10px;
 
 }
 
-header .highlight, h1 .highlight{
+header .highlight, h1 .highlight, .current a{
   color: #68a4c4;
   font-weight: bold;
 
