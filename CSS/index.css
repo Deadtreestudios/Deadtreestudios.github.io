@@ -286,7 +286,8 @@ footer{
   footer,
   #contact-us,
   header nav,
-  header nav li
+  header nav li,
+  containers
   {
     float: none;
     text-align: center;
