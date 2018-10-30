@@ -273,7 +273,9 @@ footer{
   #newsletter h1,
   #newsletter form,
   footer,
-  #contact-us
+  #contact-us,
+  header nav,
+  header nav li
   {
     float: none;
     text-align: center;
