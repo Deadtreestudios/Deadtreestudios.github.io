@@ -15,9 +15,15 @@ img {vertical-align: middle;}
   overflow: hidden;
 }
 
+nav{
+  display: inline;
+  padding-top: 10px;
+}
+
 header nav{
   float: right;
   margin-top: 10px;
+  display: inline;
 }
 
 
@@ -48,17 +54,22 @@ header li{
   padding-right: 20px;
   color: #ffffff;
 }
+#line{
+
+}
 
 header{
   color: #000000;
   font: sans-serif;
   min-height: 70px;
   border-bottom: #68a4c4 3px solid;
+
   }
 
 header h1{
   font-size: 25px;
   padding-bottom: 10px;
+  display: inline;
 }
 
 header #num{
