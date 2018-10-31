@@ -68,7 +68,7 @@ body{
 .fly-in-text.hidden li:nth-child(19) {transform: translateX(280px) translateY(-190px);}
 
 
-@media(max-width:786px)  {
+@media(max-width:1440px)  {
 
 
 .fly-in-text
