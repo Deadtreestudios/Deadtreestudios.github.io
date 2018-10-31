@@ -188,26 +188,16 @@ p {
 }
 
 @media(max-width:786px)  {
-  header #num,
-  header h1,
-  #newsletter h1,
-  #newsletter form,
-  footer,
-  #contact-us,
-  header nav,
-  header nav li,
+  .mb-60
+
 
   {
     float: none;
     text-align: center;
     width: 100%;
   }
-  header{
-  padding-bottom: 20px;
-  }
-  header h1{
-    font-size: 20px;
-  }
+
+
 
 
 
