@@ -68,6 +68,9 @@ body{
 .fly-in-text.hidden li:nth-child(18) {transform: translateX(300px) translateY(-340px);}
 .fly-in-text.hidden li:nth-child(19) {transform: translateX(280px) translateY(-190px);}
 
+.hide {
+    display: none;
+}
 
 
 
@@ -85,6 +88,8 @@ body{
     width: 100%;
 
   }
-
+  .desktop-show {
+         display: initial;
+     }
 
   }
