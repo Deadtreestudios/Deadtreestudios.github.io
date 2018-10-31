@@ -68,17 +68,21 @@ body{
 .fly-in-text.hidden li:nth-child(19) {transform: translateX(280px) translateY(-190px);}
 
 
-@media(max-width:1440px)  {
 
 
-.fly-in-text
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .fly-in-text.hidden li {font-size: 11px}
+}
 
-  {
+@media(max-width:786px)  {
+.fly-in-text.hidden li
+
+{
     float: none;
     text-align: center;
     width: 100%;
-    font-size: 11px;
-    display: inline;
-    margin-right: 10px;
+  }
+
 
   }
