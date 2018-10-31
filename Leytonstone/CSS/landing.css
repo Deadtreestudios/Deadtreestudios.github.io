@@ -1,0 +1,183 @@
+@import url(http://fonts.googleapis.com/css?family=Tahoma:400,300,700);
+* {box-sizing: border-box;}
+body{
+font: sans-serif;
+}
+
+.button_1{
+  height: 30px;
+  background: #68a4c4;
+  border: 0;
+  padding-left: 20px;
+  padding-right: 20px;
+  color: #ffffff;
+
+}
+
+#link-chingford{
+  float: left;
+  padding-right: 100px;
+  padding-bottom: 80px;
+  margin: 0;
+
+}
+
+#link-walthamstow{
+  float: none;
+  padding-right: 100px;
+  padding-bottom: 80px;
+  margin: 0;
+
+}
+
+#link-leytonstone{
+  float: right;
+  padding-right: 100px;
+  padding-bottom: 80px;
+  margin: 0;
+
+}
+
+header{
+  color: #000000;
+  font: sans-serif;
+  min-height: 70px;
+  border-bottom: #68a4c4 3px solid;
+  background: #252525;
+
+  }
+
+  .highlight{
+    color: #68a4c4;
+  }
+
+  .spad{
+    padding-left: 68px;
+  }
+
+header h1{
+  font-size: 25px;
+  padding-bottom: 10px;
+  display: inline;
+  color: #fff;
+}
+
+#showcase{
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 10px;
+  margin: 15px;
+
+}
+
+header .highlight, h1 .highlight{
+  color: #68a4c4;
+  font-weight: bold;
+
+}
+
+.mb-60 {
+    margin-bottom: 10px;
+}
+.services-inner {
+    border: 2px solid #68a4c4;
+    margin-left: 35px;
+    transition: .3s;
+}
+.our-services-img {
+    float: left;
+    margin-left: -36px;
+    margin-right: 22px;
+    margin-top: 28px;
+}
+.our-services-text {
+    padding-right: 10px;
+}
+.our-services-text {
+    overflow: hidden;
+    padding: 28px 0 25px;
+}
+.our-services-text h4 {
+    color: #222222;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding-bottom: 10px;
+    position: relative;
+    text-transform: uppercase;
+}
+.our-services-text h4::before {
+    background: #68a4c4 none repeat scroll 0 0;
+    bottom: 0;
+    content: "";
+    height: 1px;
+    position: absolute;
+    width: 35px;
+}
+.our-services-wrapper:hover .services-inner {
+    background: #fff none repeat scroll 0 0;
+    border: 2px solid transparent;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
+}
+.our-services-text p {
+    margin-bottom: 0;
+}
+p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #666;
+    margin-bottom: 15px;
+}
+
+#info{
+    border-top: #68a4c4 3px solid;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 25px;
+    color: #fff;
+    background: #252525;
+
+}
+
+#info p{
+  color: #fff;
+}
+
+.container-fluid{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+/* Boxes */
+#boxes{
+  margin-top: 10px;
+  padding-bottom: 40px;
+}
+
+#boxes .box1{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding-left: 20px;
+
+}
+
+#boxes .box2{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding-left: 130px;
+
+}
+
+#boxes .box3{
+  float: right;
+  text-align: center;
+  width: 30%;
+  padding-left: 20px;
+
+}
