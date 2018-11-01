@@ -121,7 +121,7 @@ padding: 20px;
 
 }
 
-header .highlight, h1 .highlight, .current a{
+header .highlight, h1 .highlight, .current a, p .highlight{
   color: #68a4c4;
   font-weight: bold;
 
@@ -249,7 +249,7 @@ footer{
   padding: 20px;
   margin-top: 20px;
   color: #ffffff;
-  background-color: #68a4c4;
+  background: #252525;
   text-align: left;
   padding-bottom: 0;
 }
