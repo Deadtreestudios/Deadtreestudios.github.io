@@ -95,6 +95,7 @@ header #num{
   background: #68a4c4;
   width: 50%;
 
+
 }
 
 .col-mid-6 h1,{
@@ -193,6 +194,7 @@ header .highlight, h1 .highlight, .current a, p .highlight{
 
 #info{
     padding: 20px;
+    margin: 20px;
   }
 
 #info p, #info h1{
