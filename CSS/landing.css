@@ -44,6 +44,8 @@ h1, h4{
 
 p{
   font-family: Tahoma;
+  overflow: hidden;
+ max-width: 75ch;
 }
 
 header{
