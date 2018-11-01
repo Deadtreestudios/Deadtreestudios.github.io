@@ -91,6 +91,12 @@ header #num{
   float: right;
 }
 
+.line{
+  background: #68a4c4;
+  width: 50%;
+
+}
+
 .col-mid-6 h1,{
   display: inline;
 }
@@ -186,16 +192,14 @@ header .highlight, h1 .highlight, .current a, p .highlight{
 }
 
 #info{
-
-    padding-top: 20px;
-    padding-bottom: 20px;
-
-
-
-}
+    padding: 20px;
+  }
 
 #info p, #info h1{
   color: #000000;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 input[type=text], select, textarea {
