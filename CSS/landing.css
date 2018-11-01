@@ -38,6 +38,10 @@ font: sans-serif;
 
 }
 
+h1{
+  font-family: times;
+}
+
 header{
   color: #000000;
   font: sans-serif;
