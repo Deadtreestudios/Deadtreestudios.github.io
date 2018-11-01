@@ -42,6 +42,10 @@ h1{
   font-family: Georgia;
 }
 
+p{
+  font-family: courier;
+}
+
 header{
   color: #000000;
   font: sans-serif;
