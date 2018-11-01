@@ -92,7 +92,7 @@ header #num{
 }
 
 .line{
-  background: #68a4c4;
+  border-color:#68a4c4;
   width: 50%;
 
 
