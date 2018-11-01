@@ -119,14 +119,20 @@ padding: 20px;
   float: right;
 }
 
+#showcase{
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  padding: 20px;
+  margin: 20px;
 
+}
 
 header .highlight, h1 .highlight, .current a, p .highlight{
   color: #68a4c4;
   font-weight: bold;
 
 }
-
 
 #info{
     padding: 20px;
@@ -225,7 +231,9 @@ footer{
   header h1{
     font-size: 20px;
   }
-  
+  #showcase h1{
+    margin-top: 40px;
+  }
   #newsletter button{
     display: block;
     width: 100%;
