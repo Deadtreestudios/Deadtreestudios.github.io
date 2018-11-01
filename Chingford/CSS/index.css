@@ -55,15 +55,12 @@ header li{
   padding-right: 20px;
   color: #ffffff;
 }
-#line{
-
-}
 
 header{
   color: #000000;
   font: sans-serif;
   min-height: 70px;
-  border-bottom: #68a4c4 3px solid;
+
 
   }
 
@@ -199,15 +196,7 @@ header .highlight, h1 .highlight, .current a{
   top: 0;
 }
 
-
-
-
-
-
-
-
 #info{
-    border-top: #68a4c4 3px solid;
     margin: 10px;
     padding-top: 20px;
     padding-bottom: 25px;
@@ -244,10 +233,7 @@ input[type=submit]:hover {
     padding: 20px;
 }
 
-#newsletter form{
-  background: #ffffff;
-  padding: 0;
-}
+
 
 #contact-us{
   display: flex;
