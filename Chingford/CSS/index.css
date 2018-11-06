@@ -13,13 +13,14 @@ img {vertical-align: middle;}
   overflow: hidden;
 }
 
-nav{
-  display: inline;
-  padding-top: 10px;
 
+
+.current-nav{
+  display: grid;
+  float: right;
+  text-align: center;
+  padding: 30px 50px 20px 20px;
 }
-
-
 
 .form-inline{
 display: block;
@@ -28,14 +29,60 @@ margin: auto;
 padding: auto;
 }
 
-header nav{
-  float: right;
-  margin-top: 10px;
-  display: inline;
+.mynavbar {
+	text-align:center;
+  background: #ffffff;
+
+}
+
+.mynavbar .nav {
+	float:none;
+  background: #ffffff;
+
+}
+
+.mynavbar .nav li {
+	display:inline-block;
+	float:none;
+	margin:0 20px;
+	vertical-align:middle;
+
+}
+.mynavbar .nav li a {
+	color:#000000;
+
 }
 
 
-header a:hover{
+.mynavbar .nav li.mylogo a img {
+	width:100%;
+	height:auto;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+ @media screen and (max-width:768px) {
+.navbar-brand {
+	display:inline
+}
+.mynavbar .nav li {
+	display:block;
+	margin:0
+}
+.mynavbar .nav li a {
+	border-radius:0;
+	display:block;
+
+}
+.mynavbar li.mylogo {
+	display:none
+}
+}
+
+
+
+
+header a, .mynavbar .nav li a:hover{
   color: #68a4c4;
   text-decoration: none;
 }
