@@ -66,7 +66,7 @@ header{
   color: #fff;
   font: sans-serif;
   min-height: 70px;
-  background: #252525;
+  background: #d1d1e0;
 
 
   }
@@ -88,10 +88,12 @@ header{
       max-width: 100ch;
   }
 
+
 header h1{
   font-size: 25px;
   padding-bottom: 20px;
   display: inline;
+
 }
 
 header #num{
@@ -206,7 +208,7 @@ footer{
   padding: 20px;
   margin-top: 20px;
   color: #ffffff;
-  background: #252525;
+  background: #d1d1e0;
   text-align: left;
   padding-bottom: 0;
 }
