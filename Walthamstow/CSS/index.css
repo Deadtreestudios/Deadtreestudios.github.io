@@ -32,7 +32,7 @@ header a:hover{
 }
 
 header a{
-  color: #fff;
+  color: #000000;
   text-decoration: none;
   text-transform: uppercase;
   font-size: 16px;
@@ -54,7 +54,7 @@ header li{
 }
 
 header{
-  color: #fff;
+  color: #000000;
   font: sans-serif;
   min-height: 70px;
   background: #d1d1e0;
@@ -196,7 +196,7 @@ input[type=submit]:hover {
 footer{
   padding: 20px;
   margin-top: 20px;
-  color: #ffffff;
+  color: #000000;
   background: #d1d1e0;
   text-align: left;
   padding-bottom: 0;
