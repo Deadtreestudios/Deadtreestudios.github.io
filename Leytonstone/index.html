@@ -17,24 +17,38 @@
 <link rel="stylesheet" type="text/css" href="CSS/slideshow.css">
 
 
-    <title>Footsteps | Leytonstone</title>
+    <title>Footsteps | Chingford</title>
   </head>
   <body>
     <header>
       <div class="col-mid-6">
         <h1><img src="Images/logo.gif"><span class="highlight">FOOTSTEPS</span> NURSERY - LEYTONSTONE</h1>
-        <nav>
-  <div class="col-mid-2">
-      <ul>
-        <li class="current"><a href="index.html">HOME</a></li>
-        <li><a href="policies.html">POLICIES</a></li>
-        <li><a href="staff.html">STAFF</a></li>
-        <li><a href="../landing.html">MORE NURSERIES</a></li>
-        <li><a href="https://www.facebook.com/FootstepsChingford/" target="_blank" style="  text-decoration: none;">FACEBOOK</a></li>
-      </ul>
-  </div>
-  </nav>
+
+        <div class="current-nav">
+          <nav>
+            <ul>
+              <li><a href="index.html">Chingford</a></li>
+              <li><a href="index.html">Walthamstow</a></li>
+              <li  class="current"><a href="index.html">Leytonstone</a></li>
+            </ul>
+          </nav>
+        </div>
+
 </div>
+<nav class="navbar navbar-default" role="navigation" style="background: #ffffff; border:none; padding-top:10px;">
+    <div class="container">
+
+        <div class="collapse navbar-collapse mynavbar" id="bs-example-navbar-collapse-1 ">
+            <ul class="nav navbar-nav ">
+                <li class="current"><a href="index.html">Home</a></li>
+                <li><a href="policies.html">Policies</a></li>
+                <li><a href="staff.html">Recruitment</a></li>
+                <li><a href="fees.html">Fees</a></li>
+                <li><a href="contact_us.html">Contact Us</a></li>
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
    </header>
 
    <section id="showcase">
@@ -45,41 +59,43 @@
     </section>
 
 
-   <div class="container">
-   <div id="myCarousel" class="carousel slide" data-ride="carousel">
-     <!-- Indicators -->
-     <ol class="carousel-indicators">
-       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-       <li data-target="#myCarousel" data-slide-to="1"></li>
-       <li data-target="#myCarousel" data-slide-to="2"></li>
-     </ol>
 
-     <!-- Wrapper for slides -->
-     <div class="carousel-inner">
-       <div class="item active">
-         <img src="Images/pic1.jpg" alt="pic1" style="width:100%;">
-       </div>
+<div class="container">
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Indicators -->
+  <ol class="carousel-indicators">
+    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#myCarousel" data-slide-to="1"></li>
+    <li data-target="#myCarousel" data-slide-to="2"></li>
+  </ol>
 
-       <div class="item">
-         <img src="Images/pic2.jpg" alt="pic2" style="width:100%;">
-       </div>
+  <!-- Wrapper for slides -->
+  <div class="carousel-inner">
+    <div class="item active">
+      <img src="Images/pic1.jpg" alt="pic1" style="width:100%;">
+    </div>
 
-       <div class="item">
-         <img src="Images/pic3.jpg" alt="pic3" style="width:100%;">
-       </div>
-     </div>
+    <div class="item">
+      <img src="Images/pic2.jpg" alt="pic2" style="width:100%;">
+    </div>
 
-     <!-- Left and right controls -->
-     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
-       <span class="glyphicon glyphicon-chevron-left"></span>
-       <span class="highlight">Previous</span>
-     </a>
-     <a class="right carousel-control" href="#myCarousel" data-slide="next">
-       <span class="glyphicon glyphicon-chevron-right"></span>
-       <span class="highlight">Next</span>
-     </a>
-   </div>
-   </div>
+    <div class="item">
+      <img src="Images/pic3.jpg" alt="pic3" style="width:100%;">
+    </div>
+  </div>
+
+  <!-- Left and right controls -->
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+    <span class="highlight">Previous</span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+    <span class="highlight">Next</span>
+  </a>
+</div>
+</div>
+
 
 
 
@@ -87,6 +103,8 @@
 
 
 <script src="JS/slideshow.js"></script>
+
+
 
 
 <section id="info">
@@ -114,29 +132,41 @@
 <hr class="line"></hr>
 </section>
 
+
+
+
+
 <body>
 
-
-<div class="container">
-  <form action="/action_page.php">
-    <h1>Enquiry Form</h1>
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-
-    <label for="email"><b>Email</b></label>
-  <input type="text" placeholder="Enter Email" name="email" required>
-
-
-    <label for="subject">Enquiry</label>
-    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-
-    <input type="submit" value="Submit">
+  <div class="container">
+  <h2 style="text-align: center;">Enquiry Form</h2>
+  <form class="form-inline" action="/action_page.php">
+    <div class="form-group">
+      <label for="fname">First Name</label>
+      <input class="form-inline" type="text" id="fname" name="firstname" placeholder="Your name.." width="200px";>
+    </div>
+    <div class="form-group">
+      <label for="lname">Last Name</label>
+      <input class="form-inline" type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+    <br>
+    <div class="form-group">
+      <label for="email"><b>Email</b></label>
+    <input type="text" class="form-inline" placeholder="Enter Email" name="email" required >
+    </div>
+    <div class="form-group">
+      <label for="postcode"><b>Post Code</b></label>
+    <input type="text" class="form-inline" placeholder="Enter Post Code" name="postcode" required>
+  </div><br>
+    <div class="form-group">
+      <label for="subject">Enquiry</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px;width:500px;"></textarea>
+    </div><br>
+    <button type="submit" class="button_1">Submit</button>
   </form>
 </div>
+
+
 
 <footer>
   <section id="contact-us">
@@ -148,12 +178,12 @@
 
 <section id="contact-us">
 <div class="container">
-  <p>Footsteps Day Nursery: Leytonstone</p>
-  <p>2 Preston Road,</p>
-  <p>Leytonstone,</p>
-  <p>London, E11 1NN.</p>
+  <p>Footsteps Day Nursery: Chingford</p>
+  <p>64b Station Road,</p>
+  <p>Chingford,</p>
+  <p>London, E4 7BA.</p>
   <br>
-  <p style="font-weight: bold;">020 8530 5471</p>
+  <p style="font-weight: bold;">020 3583 5741</p>
 </div>
 </section>
 <section class="food">
