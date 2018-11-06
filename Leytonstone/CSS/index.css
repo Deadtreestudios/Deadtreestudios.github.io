@@ -13,20 +13,76 @@ img {vertical-align: middle;}
   overflow: hidden;
 }
 
-nav{
-  display: inline;
-  padding-top: 10px;
 
-}
 
-header nav{
+.current-nav{
+  display: grid;
   float: right;
-  margin-top: 10px;
-  display: inline;
+  text-align: center;
+  padding: 30px 50px 20px 20px;
+}
+
+.form-inline{
+display: block;
+width: 50%;
+margin: auto;
+padding: auto;
+}
+
+.mynavbar {
+	text-align:center;
+  background: #ffffff;
+
+}
+
+.mynavbar .nav {
+	float:none;
+  background: #ffffff;
+
+}
+
+.mynavbar .nav li {
+	display:inline-block;
+	float:none;
+	margin:0 20px;
+	vertical-align:middle;
+
+}
+.mynavbar .nav li a {
+	color:#000000;
+
 }
 
 
-header a:hover{
+.mynavbar .nav li.mylogo a img {
+	width:100%;
+	height:auto;
+	vertical-align:middle;
+	display:inline-block;
+}
+
+ @media screen and (max-width:768px) {
+.navbar-brand {
+	display:inline
+}
+.mynavbar .nav li {
+	display:block;
+	margin:0
+}
+.mynavbar .nav li a {
+	border-radius:0;
+	display:block;
+
+}
+.mynavbar li.mylogo {
+	display:none
+}
+}
+
+
+
+
+header a, .mynavbar .nav li a:hover{
   color: #68a4c4;
   text-decoration: none;
 }
@@ -79,10 +135,12 @@ header{
       max-width: 100ch;
   }
 
+
 header h1{
   font-size: 25px;
   padding-bottom: 20px;
   display: inline;
+
 }
 
 header #num{
