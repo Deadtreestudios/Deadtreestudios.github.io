@@ -2,6 +2,7 @@
 * {box-sizing: border-box;}
 body{
 font: sans-serif;
+background: #f5f5f5;
 }
 
 .mySlides {display: none;}
