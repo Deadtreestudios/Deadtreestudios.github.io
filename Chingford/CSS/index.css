@@ -300,7 +300,7 @@ padding: 20px;
 
 }
 
-header .highlight, h1 .highlight, .current a, p .highlight{
+header .highlight, h1 .highlight, .current a, p .highlight, h5 .highlight{
   color: #68a4c4;
   font-weight: bold;
 
