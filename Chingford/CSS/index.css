@@ -23,12 +23,92 @@ img {vertical-align: middle;}
 
 }
 
+h2{
+  padding: 20px 20px 5px 20px;
+  margin: 20px 20px 5px 20px;
+}
+
+.container-fluid form, {
+  padding: 20px 0 0 85px;
+  margin: 20px 0 0 85px;
+}
+
+.enrolment-p{
+  text-align: center;
+  float: left;
+}
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 15%;
+}
+
+td, th {
+    border: 1px solid #000000;
+    text-align: left;
+    padding: 2px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+#top-tables table{
+  display: inline;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+#main-tables table{
+  display: inline;
+  padding: 20px;
+  margin: 20px;
+
+
+}
+
+#main-tables h4{
+  padding: 20px 20px 5px 20px;
+  margin: 20px 20px 5px 20px;
+}
+
+h2, h4{
+  text-align: center;
+}
+
+.content-tables{
+  margin: 40px;
+  padding: 40px;
+  text-align: center;
+
+}
+
+#top-tables {
+width: 50%;
+padding-left: 233px;
+
+
+}
+
+.enrolment-p{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 15px;
+  padding: 20px 0 20px 380px;
+
+
+}
+
 /* --- Map --- */
 .map{
 	position: relative;
   margin: 20px;
   padding: 20px 360px 20px 360px;
-  
+
 
 }
 
@@ -151,7 +231,7 @@ header{
 
   }
 
-  h1, h4{
+  h1, h2, h3, h4, h5, h6{
     font-family: Georgia;
   }
 
@@ -159,13 +239,14 @@ header{
     font-family: Tahoma;
   }
 
-  #info p {
+  #info p{
       font-size: 14px;
       font-weight: 400;
       line-height: 25px;
       margin-bottom: 15px;
       padding: 20px;
       max-width: 100ch;
+
   }
 
 
