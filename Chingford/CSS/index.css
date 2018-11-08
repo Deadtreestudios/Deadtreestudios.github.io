@@ -250,6 +250,8 @@ header{
   }
 
 
+
+
 header h1{
   font-size: 25px;
   padding-bottom: 20px;
@@ -270,7 +272,7 @@ header #num{
 
 }
 
-.col-mid-6 h1,{
+.col-mid-6 h1, .col-mid-6 h5{
   display: inline;
 }
 .col-mid-6 .num{
@@ -297,6 +299,9 @@ padding: 20px;
   font-style: italic;
   padding: 20px;
   margin: 20px;
+
+}
+.margintop20{
 
 }
 

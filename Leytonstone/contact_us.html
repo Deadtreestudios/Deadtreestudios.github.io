@@ -60,13 +60,13 @@
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.6695949468976!2d0.00798131527859147!3d51.574290313631984!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a7663b1d8653%3A0xb22b13a91c856321!2s2+Preston+Rd%2C+London+E11+1NN%2C+UK!5e0!3m2!1sen!2sin!4v1521122657679"></iframe>
 	</div>
-	<div class="container">
+  <div class="container">
 		<div class="row">
 			<div class="col-lg-12">
-				<h4>Get in touch with us by filling <strong>contact form below</strong></h4>
+				<h4>Get in touch with us by filling out the <strong>contact form below</strong></h4>
 				<form id="contactform" action="contact/contact.php" method="post" class="validateform" name="send-contact">
 					<div id="sendmessage">
-						 Your message has been sent. Thank you!
+						 * Please fill all required form field, thanks!
 					</div>
 					<div class="row">
 						<div class="col-lg-4 field">
@@ -89,16 +89,22 @@
 							<div class="validation">
 							</div>
 						</div>
-            <label for="CV">Attach CV</label>
-            <input type="file" name="cv">
+
 						<div class="col-lg-12 margintop10 field">
 							<textarea rows="12" name="message" class="input-block-level" placeholder="* Your message here..." data-rule="required" data-msg="Please write something"></textarea>
 							<div class="validation">
 							</div>
 							<p>
-								<button class="button_1" type="submit">Submit message</button>
-								<span class="pull-right margintop20">* Please fill all required form field, thanks!</span>
-							</p>
+                <div class="container-fluid" style="padding:0; float:left; margin-top: 20px;">
+                <form method="get" action="doc/Admissions Policy.pdf" target="_blank">
+                 <button type="submit" class="button_1" style="display:inline;">Submit message</button><h5 style="display:inline"><a href="contact_us_enquiry.html" style="text-decoration:none; color:#000000;">    Click here for the <span class="highlight">Recruitment Form</span></a></h5>
+
+                </form>
+              </div>
+              <div class="col-mid-6">
+              <p class="form-warning" style="max-width: 100ch; float:right; padding-top:20px; margin:0; display:inline;"></p>
+            </div>
+              </p>
 						</div>
 					</div>
 				</form>
@@ -106,6 +112,7 @@
 		</div>
 	</div>
 	</section>
+
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
