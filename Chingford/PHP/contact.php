@@ -60,7 +60,7 @@
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2476.4935685310907!2d0.006482299999999999!3d51.632485499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a7685e8f7cc324c!2sFootsteps+Nursery+Chingford!5e0!3m2!1sen!2sus!4v1442228691144" frameborder="0" style="border:0"></iframe>
 	</div>
-  <?php include('PHP/enquiry_form.php'); ?>
+  <?php include('enquiry_form.php'); ?>
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
@@ -71,39 +71,38 @@
 					</div>
 					<div class="row">
 						<div class="col-lg-4 field">
-							<input type="text" name="name" placeholder="* Enter your full name" autofocus>
+							<input type="text" name="name" placeholder="* Enter your full name" value="<?= $name ?>" autofocus>
               <span class="error"><?= $name_error ?></span>
 							<div class="validation">
 							</div>
 						</div>
 						<div class="col-lg-4 field">
-							<input type="text" name="email" placeholder="* Enter your email address" data-rule="email" data-msg="Please enter a valid email">
+							<input type="text" name="email" value="<?= $email ?>" placeholder="* Enter your email address" data-rule="email" data-msg="Please enter a valid email">
               <span class="error"><?= $email_error ?></span>
 							<div class="validation">
 							</div>
 						</div>
             <div class="col-lg-4 field">
-							<input type="text" name="postcode" placeholder="Enter your postcode" data-rule="maxlen:4" data-msg="Please enter at least 4 chars">
+							<input type="text" name="postcode" value="<?= $postcode ?>" placeholder="Enter your postcode" data-rule="maxlen:4" data-msg="Please enter at least 4 chars">
               <span class="error"><?= $postcode_error ?></span>
 							<div class="validation">
 							</div>
 						</div>
 						<div class="col-lg-4 field">
-							<input type="text" name="phone" placeholder="Enter your phone number" data-rule="maxlen:4" data-msg="Please enter at least 4 chars">
+							<input type="text" name="phone" value="<?= $phone ?>" placeholder="Enter your phone number" data-rule="maxlen:4" data-msg="Please enter at least 4 chars">
               <span class="error"><?= $phone_error ?></span>
 							<div class="validation">
 							</div>
 						</div>
 
 						<div class="col-lg-12 margintop10 field">
-							<textarea rows="12" name="message" class="input-block-level" placeholder="* Your message here..." data-rule="required" data-msg="Please write something"></textarea>
+							<textarea rows="12" name="message" value="<?= $message ?>" class="input-block-level" placeholder="* Your message here..." data-rule="required" data-msg="Please write something"></textarea>
 							<div class="validation">
 							</div>
 							<p>
-                <button name="submit" type="submit" class="button_1" data-submit="...Sending" style="display:inline;">Submit message</button><h5 style="display:inline"><a href="recruitment_form.html" style="text-decoration:none; color:#000000;">    Click here for the <span class="highlight">Recruitment Form</span></a></h5>
                 <div class="container-fluid" style="padding:0; float:left; margin-top: 20px;">
                 <form method="get" action="doc/Admissions Policy.pdf" target="_blank">
-
+                 <button name="submit" type="submit" class="button_1" style="display:inline;">Submit message</button><h5 style="display:inline"><a href="recruitment_form.html" style="text-decoration:none; color:#000000;">    Click here for the <span class="highlight">Recruitment Form</span></a></h5>
 
                 </form>
               </div>
@@ -118,7 +117,6 @@
 		</div>
 	</div>
 	</section>
-
 
   <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){

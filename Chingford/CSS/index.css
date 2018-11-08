@@ -16,6 +16,11 @@ section .section-title {
     margin-bottom: 50px;
     text-transform: uppercase;
 }
+
+.error{
+  color: red;
+}
+
 #footer {
     background: #DCDCDC;
 }
