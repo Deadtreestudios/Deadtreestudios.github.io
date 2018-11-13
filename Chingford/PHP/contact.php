@@ -16,8 +16,8 @@
 <!-- Latest compiled JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css">
-<link rel="stylesheet" type="text/css" href="CSS/index.css">
-<link rel="stylesheet" type="text/css" href="CSS/slideshow.css">
+<link rel="stylesheet" type="text/css" href="../CSS/index.css">
+<link rel="stylesheet" type="text/css" href="../CSS/slideshow.css">
 
 
 
