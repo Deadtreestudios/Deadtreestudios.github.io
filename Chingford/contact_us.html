@@ -60,37 +60,37 @@
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2476.4935685310907!2d0.006482299999999999!3d51.632485499999994!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9a7685e8f7cc324c!2sFootsteps+Nursery+Chingford!5e0!3m2!1sen!2sus!4v1442228691144" frameborder="0" style="border:0"></iframe>
 	</div>
-  <?php include('PHP/enquiry_form.php'); ?>
+
 	<div class="container">
 		<div class="row">
 			<div class="col-lg-12">
 				<h4>Get in touch with us by filling out the <strong>contact form below</strong></h4>
-				<form id="contact" action="<?= $_SERVER['PHP_SELF']; ?>" method="post" class="validateform" name="send-contact">
+				<form id="contact" action="PHP/enquiry_form.php" method="post" class="validateform" name="send-contact">
 					<div id="sendmessage">
 						 * Please fill all required form field, thanks!
 					</div>
 					<div class="row">
 						<div class="col-lg-4 field">
 							<input type="text" name="name" placeholder="* Enter your full name" autofocus>
-              <span class="error"><?= $name_error ?></span>
+
 							<div class="validation">
 							</div>
 						</div>
 						<div class="col-lg-4 field">
 							<input type="text" name="email" placeholder="* Enter your email address" data-rule="email" data-msg="Please enter a valid email">
-              <span class="error"><?= $email_error ?></span>
+              <
 							<div class="validation">
 							</div>
 						</div>
             <div class="col-lg-4 field">
 							<input type="text" name="postcode" placeholder="Enter your postcode" data-rule="maxlen:4" data-msg="Please enter at least 4 chars">
-              <span class="error"><?= $postcode_error ?></span>
+
 							<div class="validation">
 							</div>
 						</div>
 						<div class="col-lg-4 field">
 							<input type="text" name="phone" placeholder="Enter your phone number" data-rule="maxlen:4" data-msg="Please enter at least 4 chars">
-              <span class="error"><?= $phone_error ?></span>
+
 							<div class="validation">
 							</div>
 						</div>
