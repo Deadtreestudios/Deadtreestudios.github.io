@@ -1,2 +1,2 @@
 AddType application/x-httpd-php .php
-AddType text/html htm0
+AddType text/html php
