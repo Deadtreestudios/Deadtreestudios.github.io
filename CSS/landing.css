@@ -4,15 +4,6 @@ body{
 font: sans-serif;
 }
 
-.button_1{
-  height: 30px;
-  background: #68a4c4;
-  border: 0;
-  padding-left: 20px;
-  padding-right: 20px;
-  color: #ffffff;
-
-}
 
 #link-chingford{
   float: left;
@@ -156,6 +147,10 @@ p {
   color: #000000;
 }
 
+#info h1{
+  padding-left: 20px;
+}
+
 .container-fluid{
   width: 80%;
   margin: auto;
@@ -192,6 +187,10 @@ p {
 
 }
 
+.ching{
+  ;
+}
+
 /* On smaller screens, decrease text size */
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
@@ -199,9 +198,7 @@ p {
 
 @media(max-width:786px)  {
   .mb-60,
-  #boxes,
-  .button_1,
-  nav
+  #boxes
 {
     float: none;
     text-align: center;
@@ -210,6 +207,13 @@ p {
 .box1, .box2, .box3{
   display: block;
   width: 100%;
+}
+
+.button_1{
+  display: none;
+}
+.ching{
+  display: inline;
 }
 
 
