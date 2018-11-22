@@ -199,7 +199,8 @@ p {
 
 @media(max-width:786px)  {
   .mb-60,
-  #boxes
+  #boxes,
+  .button_1
 {
     float: none;
     text-align: center;
