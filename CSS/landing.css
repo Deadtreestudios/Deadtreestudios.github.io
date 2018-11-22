@@ -200,7 +200,8 @@ p {
 @media(max-width:786px)  {
   .mb-60,
   #boxes,
-  .button_1
+  .button_1,
+  nav
 {
     float: none;
     text-align: center;
